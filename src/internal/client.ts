@@ -10,7 +10,7 @@ import * as async from 'async'
 import BlockStream2 from 'block-stream2'
 import { isBrowser } from 'browser-or-node'
 import _ from 'lodash'
-import * as qs from 'query-string'
+import qs from 'query-string'
 import xml2js from 'xml2js'
 
 import { CredentialProvider } from '../CredentialProvider.ts'
